@@ -1,0 +1,23 @@
+{
+  "name": "@gen.himanshu/zod_blog",
+  "version": "3.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",         
+  "files": [
+    "build"                             
+  ],
+  "scripts": {
+  "build": "tsc",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "zod": "^4.0.5"
+  }
+}
